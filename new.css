@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
+
+/* * {
+    padding: 0
+    marg */
+
+body {
+  background-color: hsla(0, 15%, 64%, 0.294);
+  color: hsl(0, 59%, 28%);
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif, "Roboto", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.info {
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text h2 {
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: #ff0015;
+}
+
+.avatar {
+  text-align: center;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 24px rgba(85, 0, 0, 85);
+}
+
+.bg-yellow {
+  background-color: #fff9dc;
+}
+
+.bg-green {
+  background-color: hsl(125, 81%, 85%);
+}
+
+.bg-red {
+  background-color: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.list {
+  padding-left: 100px;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 15px;
+  border-bottom: 2px grey;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 20px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 10px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.button {
+  background: #ccc;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.button:hover {
+  opacity: 0.2;
+}
+
+/*.position {
+
+  position: relative;
+  height: 300px;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.box {
+  position: fixed;
+  bottom: 50%;
+  left: 0px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #fab8a0;
+}*/
